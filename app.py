@@ -7,7 +7,11 @@ import joblib
 
 st.set_page_config(page_title="Heart Disease ML App", layout="wide")
 st.title("❤️ Heart Disease Prediction – ML Model Only")
-
+st.image(
+    "heart_failureimage.png",
+    use_container_width=True
+)
+name = st.text_input("Enter your name:")
 # Load pre-trained model
 @st.cache_resource
 def load_model():
