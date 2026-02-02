@@ -1,28 +1,38 @@
 # 🫀 Heart Failure Prediction App
 
-A Machine Learning-powered web application built with **Streamlit** (or similar) to predict the likelihood of heart failure in patients based on clinical inputs.
-
-This project demonstrates a complete workflow of data preprocessing, model training, and deployment into a user-friendly interface.
-
----
-
-## 🧠 Project Overview
-
-The goal of this app is to enable users (doctors, researchers, or learners) to input patient health metrics and receive a **prediction on heart failure risk** using a trained machine learning model.
-
-The model is trained on a heart failure clinical dataset and deployed via Streamlit or a similar Python web framework.
+A Machine Learning–based web application that predicts the risk of **heart failure** using patient clinical data.  
+The application is built using **Python**, **scikit-learn**, and **Streamlit**, providing an interactive and user-friendly interface for real-time predictions.
 
 ---
 
-## 🗂️ Features
+## 🔍 Project Overview
 
-✔ User input for clinical features  
-✔ Machine Learning model integration  
-✔ Real-time predictions  
-✔ Clean UI with Streamlit  
-✔ Easy install and run locally
+Heart failure is a serious medical condition that requires early detection and timely intervention.  
+This project aims to assist in predicting heart failure risk by analyzing patient health parameters using a trained machine learning model.
+
+The app allows users to enter patient details and instantly receive a prediction indicating whether the patient is at **high risk** or **low risk** of heart failure.
 
 ---
 
-## 📁 Repository Structure
+## 🎯 Objectives
+
+- Build an accurate ML model for heart failure prediction
+- Deploy the model using a web interface
+- Make predictions easily accessible to users
+- Demonstrate end-to-end ML project workflow
+
+---
+
+## ✨ Key Features
+
+- 🧠 Machine Learning–powered prediction
+- 📊 Clinical feature–based inputs
+- 🖥 Interactive Streamlit web app
+- ⚡ Real-time prediction results
+- 📦 Easy to run locally or deploy
+
+---
+
+
+
 
