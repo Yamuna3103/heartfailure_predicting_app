@@ -13,7 +13,8 @@ st.image(
 )
 name = st.text_input("Enter your name:")
 # Load pre-trained model
-@st.cache_resource
+
+
 def load_model():
     return joblib.load('best_Heartfailure_model.pkl')  
 
